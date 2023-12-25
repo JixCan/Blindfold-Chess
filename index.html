@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Read-only Textarea</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="titleLabel">
+        <p>Шахматы вслепую</p>
+    </div>
+    <div class="chat">
+        <textarea readonly>This is a read-only textarea.</textarea>
+    </div>
+    <div class="buttons">
+        <div class="pieces">
+            <h3>Фигуры</h3>
+            <!-- Кнопки для фигур -->
+            <button>N</button>
+            <button>B</button>
+            <button>R</button>
+            <button>Q</button>
+            <button>K</button>
+        </div>
+        <div class="verticals">
+            <h3>Вертикали</h3>
+            <!-- Кнопки для вертикалей -->
+            <button>a</button>
+            <button>b</button>
+            <button>c</button>
+            <button>d</button>
+            <button>e</button>
+            <button>f</button>
+            <button>g</button>
+            <button>h</button>
+        </div>
+        <div class="horizontals">
+            <h3>Горизонтали</h3>
+            <!-- Кнопки для горизонталей -->
+            <button>1</button>
+            <button>2</button>
+            <button>3</button>
+            <button>4</button>
+            <button>5</button>
+            <button>6</button>
+            <button>7</button>
+            <button>8</button>
+        </div>
+        <div class="controls">
+            <!-- Кнопка для ввода -->
+            <button id="submitMove">Ввести ход</button>
+            <!-- Кнопка для очистки -->
+            <button id="clearInput">Очистить</button>
+        </div>
+    </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
