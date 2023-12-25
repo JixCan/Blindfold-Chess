@@ -1,0 +1,27 @@
+.chat {
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    width: 90vw; /* Фиксированная ширина */
+    height: 30vh;
+    color: #fff;
+    border-radius: 8px;
+    padding: 20px;
+    margin: auto;
+}
+
+.chat textarea {
+    font-weight: bold;
+    background-color: black; /* Цвет фона текстовой области */
+    color: #fff7d4; /* Цвет текста в текстовой области */
+    border: none; /* Убираем границу у текстовой области */
+    width: 100%; /* Занимает всю доступную ширину блока .chat */
+    resize: none; /* Отключение возможности изменения размеров */
+}
+
+datalist{
+    display: flex;
+}
+
+
+

@@ -10,12 +10,35 @@
         <p>Шахматы вслепую</p>
     </div>
     <div class="chat">
-        <textarea readonly>This is a read-only textarea.</textarea>
+        <textarea id="movesHistory" readonly>Выберите необходимую настройку с помощью кнопок ниже...</textarea>
     </div>
     <div class="buttons">
+        <div class="playButton">
+            <button>Играть</button>
+        </div>
+        <div class="resignButton">
+            <button>Сдаться</button>
+        </div>
+        <div class="settings">
+            <input class="difficultyLevel" type="range" min="1" max="10" step="1" list="tickmarks">
+            <datalist id="tickmarks">
+                <option value="1" label="1">
+                <option value="2" label="2">
+                <option value="3" label="3">
+                <option value="4" label="4">
+                <option value="5" label="5">
+                <option value="6" label="6">
+                <option value="7" label="7">
+                <option value="8" label="8">
+                <option value="9" label="9">
+                <option value="10" label="10">
+            </datalist>
+            
+        </div>
         <div class="pieces">
             <h3>Фигуры</h3>
             <!-- Кнопки для фигур -->
+            <button>P</button>
             <button>N</button>
             <button>B</button>
             <button>R</button>
